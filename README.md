@@ -266,14 +266,3 @@ npm run dev
 
 ---
 
-## Next Improvements / Gợi ý hoàn thiện
-
-**VI**
-- Bổ sung Swagger/OpenAPI link vào README để dễ test API.
-- Chuẩn hóa quyền truy cập (một số endpoint chưa có `@PreAuthorize`).
-- Mô tả chuẩn các trạng thái appointment (pending/accepted/in_progress/awaiting_pickup/completed/cancelled...) và chuyển trạng thái hợp lệ.
-
-**EN**
-- Add Swagger/OpenAPI link for easier API testing.
-- Normalize authorization rules (some endpoints have no `@PreAuthorize`).
-- Document appointment statuses and valid transitions.
