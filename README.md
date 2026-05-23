@@ -82,7 +82,7 @@ Các route chính trên FE:
 ## 2. Công nghệ sử dụng
 ### Backend
 - Java / Spring Boot
-- Spring Security (JWT) (thể hiện qua `SecurityContextHolder` và `@PreAuthorize`)
+- Spring Security (JWT) 
 - Maven
 - Dockerfile (deploy)
 
@@ -108,5 +108,4 @@ npm run dev
 - FE cần cấu hình `baseURL` trong `src/api/config.js` để trỏ tới BE.
 - FE lưu `token` vào `localStorage` sau khi đăng nhập.
 
-## 5. Ghi chú
-README này được tổng hợp dựa trên code hiện có (routes FE + một số controller BE như Auth, Appointment, Payment). Nếu bạn muốn README đầy đủ hơn (Inventory, Parts, Service Types, Reports, Suggested Parts, Worklogs…), mình sẽ đọc tiếp các controller còn lại và cập nhật thêm các mục tương ứng.
+
